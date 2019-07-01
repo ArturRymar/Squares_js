@@ -2,16 +2,18 @@
 
 /***Squares_js***/
 
-
+body {
+    margin: 0;
+    padding: 0;
+}
 .wrapper .block1 {
     display: flex;
     flex-direction: row;
     position: relative;
 }
-
 .wrapper .main-table td {
     background-color: #48aae6;
-    width: 55px;
+    min-width: 55px;
     height: 55px;
 }
 .wrapper .main-table {
@@ -20,15 +22,16 @@
     margin-top:61px;
 }
 .wrapper .block1 .button-one {
-    width: 55px;
+    min-width: 55px;
     height: 55px;
     font-size: 24px;
     color: white;
     background-color: #f3a500;
     border: 0;
     padding: 0;
+    text-align: center;
     margin-top: 65px;
-    cursor: pointer;
+    margin-left: 1px;
     transition: background-color 1s ease-in-out;
     outline: none;
 }
@@ -45,6 +48,7 @@
     width: 55px;
     height: 55px;
     margin-left:65px;
+    margin-top: 1px;
     font-size: 24px;
     color: white;
     background: #f3a500;
@@ -52,6 +56,7 @@
     padding: 0;
     transition: background-color 1s ease-in-out;
     outline: none;
+    text-align: center;
 }
 .wrapper .button-two:hover {
     cursor: pointer;
@@ -64,8 +69,7 @@
 .but-hid1 {
     width: 55px;
     height: 55px;
-    margin-top: 5.5px;
-    margin-left: 2px;
+    margin-top: 5px;
     padding: 0;
     font-size: 34px;
     color: white;
@@ -77,6 +81,7 @@
     visibility: hidden;
     transition: left .3s ease-out, background-color 1s ease-in-out;
     outline: none;
+    text-align: center;
 }
 .but-hid1:hover {
     cursor: pointer;
@@ -89,8 +94,7 @@
 .but-hid2 {
     width: 55px;
     height: 55px;
-    margin-left: 5.5px;
-    margin-top: 3px;
+    margin-left: 5px;
     font-size: 34px;
     color: white;
     background: #B50203;
@@ -101,6 +105,7 @@
     visibility: hidden;
     transition: top .3s ease-out, background-color 1s ease-in-out;
     outline: none;
+    text-align: center;
 }
 .but-hid2:hover {
     cursor: pointer;
